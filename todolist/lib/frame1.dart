@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'frame3.dart'; // Import frame3.dart where Frame3page is defined
+import 'frame3.dart';
 
 class Frame1page extends StatelessWidget {
   @override
@@ -88,7 +88,7 @@ class Frame1page extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.orange, // Set button background color here
+                    color: Colors.orange,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: ElevatedButton(
@@ -108,8 +108,7 @@ class Frame1page extends StatelessWidget {
                     ),
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(
-                          Color.fromARGB(
-                              255, 255, 152, 0)), // Set button background color
+                          Color.fromARGB(255, 255, 152, 0)),
                       padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
                         EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                       ),

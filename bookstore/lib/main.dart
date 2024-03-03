@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'book.dart'; // Assuming book.dart is in the same directory
+import 'book.dart';
 
 void main() => runApp(MyApp());
 
@@ -49,9 +49,9 @@ class MainPage extends StatelessWidget {
             // Animation Section
             Expanded(
               child: Container(
-                width: 400, // Adjust the width as per your requirement
+                width: 400,
                 child: Lottie.asset(
-                  'images/animation.json', // Your Lottie animation file path
+                  'images/animation.json',
                   fit: BoxFit.contain,
                 ),
               ),
@@ -66,9 +66,9 @@ class MainPage extends StatelessWidget {
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all<Color>(
-                    Colors.blue), // Changing button color to blue
+                    Color.fromARGB(255, 1, 50, 227)),
               ),
-              child: Text('Go to Book Page'),
+              child: Text('Go to Book store UI'),
             ),
             SizedBox(height: 20.0), // Add space at the bottom
           ],
