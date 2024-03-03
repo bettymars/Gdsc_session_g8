@@ -220,8 +220,8 @@ class Frame3page extends StatelessWidget {
 
   Widget _buildAddTaskButton(BuildContext context) {
     return Container(
-      width: 40, // Reduced width
-      height: 20, // Reduced height
+      width: 20, // Reduced width
+      height: 40, // Reduced height
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(8),
         color: Colors.orange,
